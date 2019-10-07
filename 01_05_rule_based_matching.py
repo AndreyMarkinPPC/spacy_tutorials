@@ -1,13 +1,3 @@
-# matcher works with doc object, not strings
-# flexible - search for text and token attributes
-# use the model's predictions
-# match patters - list of dictionaries, one per token
-# keys - names of the token attributes, mapped to their expected values
-
-# examples
-
-## match exact token texts
-### [{"ORTH": "iPhone"}, {"ORTH":"X"}]
 
 ## match lexical attributes
 ### [{"LOWER":"iphone"}, {"LOWER":"x"}]
